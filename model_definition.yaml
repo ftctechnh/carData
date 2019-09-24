@@ -1,0 +1,23 @@
+input_features:
+    -
+        name: buying
+        type: text
+        name: maint
+        type: text
+        name: doors
+        type: numerical
+        name: persons
+        type: numerical
+        name: lug_boot
+        type: text
+        name: safety
+        type: text
+
+
+output_features:
+    -
+        name: rating
+        type: category
+
+training:
+    epochs: 30
